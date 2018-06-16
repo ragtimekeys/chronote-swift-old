@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D911FFC420D4D304009CED81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D911FFC320D4D304009CED81 /* AppDelegate.swift */; };
+		D911FFC620D4D304009CED81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D911FFC520D4D304009CED81 /* ViewController.swift */; };
+		D911FFC920D4D304009CED81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D911FFC720D4D304009CED81 /* Main.storyboard */; };
+		D911FFCB20D4D306009CED81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D911FFCA20D4D306009CED81 /* Assets.xcassets */; };
+		D911FFCE20D4D306009CED81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D911FFCC20D4D306009CED81 /* LaunchScreen.storyboard */; };
+		D911FFD920D4D307009CED81 /* ChronoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D911FFD820D4D307009CED81 /* ChronoteTests.swift */; };
+		D911FFE420D4D307009CED81 /* ChronoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D911FFE320D4D307009CED81 /* ChronoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D911FFD520D4D307009CED81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D911FFB820D4D304009CED81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D911FFBF20D4D304009CED81;
+			remoteInfo = Chronote;
+		};
+		D911FFE020D4D307009CED81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D911FFB820D4D304009CED81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D911FFBF20D4D304009CED81;
+			remoteInfo = Chronote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D911FFC020D4D304009CED81 /* Chronote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chronote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D911FFC320D4D304009CED81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D911FFC520D4D304009CED81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D911FFC820D4D304009CED81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D911FFCA20D4D306009CED81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D911FFCD20D4D306009CED81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D911FFCF20D4D306009CED81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D911FFD420D4D306009CED81 /* ChronoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChronoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D911FFD820D4D307009CED81 /* ChronoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronoteTests.swift; sourceTree = "<group>"; };
+		D911FFDA20D4D307009CED81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D911FFDF20D4D307009CED81 /* ChronoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChronoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D911FFE320D4D307009CED81 /* ChronoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronoteUITests.swift; sourceTree = "<group>"; };
+		D911FFE520D4D307009CED81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D911FFBD20D4D304009CED81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D911FFD120D4D306009CED81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D911FFDC20D4D307009CED81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D911FFB720D4D304009CED81 = {
+			isa = PBXGroup;
+			children = (
+				D911FFC220D4D304009CED81 /* Chronote */,
+				D911FFD720D4D307009CED81 /* ChronoteTests */,
+				D911FFE220D4D307009CED81 /* ChronoteUITests */,
+				D911FFC120D4D304009CED81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D911FFC120D4D304009CED81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D911FFC020D4D304009CED81 /* Chronote.app */,
+				D911FFD420D4D306009CED81 /* ChronoteTests.xctest */,
+				D911FFDF20D4D307009CED81 /* ChronoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D911FFC220D4D304009CED81 /* Chronote */ = {
+			isa = PBXGroup;
+			children = (
+				D911FFC320D4D304009CED81 /* AppDelegate.swift */,
+				D911FFC520D4D304009CED81 /* ViewController.swift */,
+				D911FFC720D4D304009CED81 /* Main.storyboard */,
+				D911FFCA20D4D306009CED81 /* Assets.xcassets */,
+				D911FFCC20D4D306009CED81 /* LaunchScreen.storyboard */,
+				D911FFCF20D4D306009CED81 /* Info.plist */,
+			);
+			path = Chronote;
+			sourceTree = "<group>";
+		};
+		D911FFD720D4D307009CED81 /* ChronoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				D911FFD820D4D307009CED81 /* ChronoteTests.swift */,
+				D911FFDA20D4D307009CED81 /* Info.plist */,
+			);
+			path = ChronoteTests;
+			sourceTree = "<group>";
+		};
+		D911FFE220D4D307009CED81 /* ChronoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D911FFE320D4D307009CED81 /* ChronoteUITests.swift */,
+				D911FFE520D4D307009CED81 /* Info.plist */,
+			);
+			path = ChronoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D911FFBF20D4D304009CED81 /* Chronote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D911FFE820D4D307009CED81 /* Build configuration list for PBXNativeTarget "Chronote" */;
+			buildPhases = (
+				D911FFBC20D4D304009CED81 /* Sources */,
+				D911FFBD20D4D304009CED81 /* Frameworks */,
+				D911FFBE20D4D304009CED81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chronote;
+			productName = Chronote;
+			productReference = D911FFC020D4D304009CED81 /* Chronote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D911FFD320D4D306009CED81 /* ChronoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D911FFEB20D4D307009CED81 /* Build configuration list for PBXNativeTarget "ChronoteTests" */;
+			buildPhases = (
+				D911FFD020D4D306009CED81 /* Sources */,
+				D911FFD120D4D306009CED81 /* Frameworks */,
+				D911FFD220D4D306009CED81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D911FFD620D4D307009CED81 /* PBXTargetDependency */,
+			);
+			name = ChronoteTests;
+			productName = ChronoteTests;
+			productReference = D911FFD420D4D306009CED81 /* ChronoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D911FFDE20D4D307009CED81 /* ChronoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D911FFEE20D4D307009CED81 /* Build configuration list for PBXNativeTarget "ChronoteUITests" */;
+			buildPhases = (
+				D911FFDB20D4D307009CED81 /* Sources */,
+				D911FFDC20D4D307009CED81 /* Frameworks */,
+				D911FFDD20D4D307009CED81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D911FFE120D4D307009CED81 /* PBXTargetDependency */,
+			);
+			name = ChronoteUITests;
+			productName = ChronoteUITests;
+			productReference = D911FFDF20D4D307009CED81 /* ChronoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D911FFB820D4D304009CED81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = 80protons;
+				TargetAttributes = {
+					D911FFBF20D4D304009CED81 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D911FFD320D4D306009CED81 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D911FFBF20D4D304009CED81;
+					};
+					D911FFDE20D4D307009CED81 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D911FFBF20D4D304009CED81;
+					};
+				};
+			};
+			buildConfigurationList = D911FFBB20D4D304009CED81 /* Build configuration list for PBXProject "Chronote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D911FFB720D4D304009CED81;
+			productRefGroup = D911FFC120D4D304009CED81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D911FFBF20D4D304009CED81 /* Chronote */,
+				D911FFD320D4D306009CED81 /* ChronoteTests */,
+				D911FFDE20D4D307009CED81 /* ChronoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D911FFBE20D4D304009CED81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D911FFCE20D4D306009CED81 /* LaunchScreen.storyboard in Resources */,
+				D911FFCB20D4D306009CED81 /* Assets.xcassets in Resources */,
+				D911FFC920D4D304009CED81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D911FFD220D4D306009CED81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D911FFDD20D4D307009CED81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D911FFBC20D4D304009CED81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D911FFC620D4D304009CED81 /* ViewController.swift in Sources */,
+				D911FFC420D4D304009CED81 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D911FFD020D4D306009CED81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D911FFD920D4D307009CED81 /* ChronoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D911FFDB20D4D307009CED81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D911FFE420D4D307009CED81 /* ChronoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D911FFD620D4D307009CED81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D911FFBF20D4D304009CED81 /* Chronote */;
+			targetProxy = D911FFD520D4D307009CED81 /* PBXContainerItemProxy */;
+		};
+		D911FFE120D4D307009CED81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D911FFBF20D4D304009CED81 /* Chronote */;
+			targetProxy = D911FFE020D4D307009CED81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D911FFC720D4D304009CED81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D911FFC820D4D304009CED81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D911FFCC20D4D306009CED81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D911FFCD20D4D306009CED81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D911FFE620D4D307009CED81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D911FFE720D4D307009CED81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D911FFE920D4D307009CED81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QS5MJ733N;
+				INFOPLIST_FILE = Chronote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.80protons.Chronote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D911FFEA20D4D307009CED81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QS5MJ733N;
+				INFOPLIST_FILE = Chronote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.80protons.Chronote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D911FFEC20D4D307009CED81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QS5MJ733N;
+				INFOPLIST_FILE = ChronoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.80protons.ChronoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chronote.app/Chronote";
+			};
+			name = Debug;
+		};
+		D911FFED20D4D307009CED81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QS5MJ733N;
+				INFOPLIST_FILE = ChronoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.80protons.ChronoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chronote.app/Chronote";
+			};
+			name = Release;
+		};
+		D911FFEF20D4D307009CED81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QS5MJ733N;
+				INFOPLIST_FILE = ChronoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.80protons.ChronoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chronote;
+			};
+			name = Debug;
+		};
+		D911FFF020D4D307009CED81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QS5MJ733N;
+				INFOPLIST_FILE = ChronoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.80protons.ChronoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chronote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D911FFBB20D4D304009CED81 /* Build configuration list for PBXProject "Chronote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D911FFE620D4D307009CED81 /* Debug */,
+				D911FFE720D4D307009CED81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D911FFE820D4D307009CED81 /* Build configuration list for PBXNativeTarget "Chronote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D911FFE920D4D307009CED81 /* Debug */,
+				D911FFEA20D4D307009CED81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D911FFEB20D4D307009CED81 /* Build configuration list for PBXNativeTarget "ChronoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D911FFEC20D4D307009CED81 /* Debug */,
+				D911FFED20D4D307009CED81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D911FFEE20D4D307009CED81 /* Build configuration list for PBXNativeTarget "ChronoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D911FFEF20D4D307009CED81 /* Debug */,
+				D911FFF020D4D307009CED81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D911FFB820D4D304009CED81 /* Project object */;
+}
