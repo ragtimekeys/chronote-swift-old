@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        view.backgroundColor = .white
+        let myLabel = UILabel(frame: CGRect(x: 30, y: 20, width: 100, height: 40))
+        myLabel.text = "chronote sucks"
+        view.addSubview(myLabel)
     }
 
     override func didReceiveMemoryWarning() {
