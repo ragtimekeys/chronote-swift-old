@@ -9,9 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        navigationItem.title = "Home"
+        tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
 
         view.backgroundColor = .white
 
@@ -23,7 +25,15 @@ class ViewController: UIViewController {
         myLabel.clipsToBounds = true
 
         let myTextField = UITextField()
+        myTextField.layer.borderColor = UIColor.black.cgColor
+        myTextField.layer.borderWidth = 2
         myTextField.placeholder = "Text input"
+        myTextField.returnKeyType = .done
+        myTextField.addTarget(
+            self,
+            action: #selector(didReturnFromTextField(_:)),
+            for: .editingDidEndOnExit
+        )
 
         let mySegmentedControl = UISegmentedControl(items: [
             "A",
@@ -44,20 +54,20 @@ class ViewController: UIViewController {
         stackView.distribution = .fillEqually
         stackView.alignment = .fill
         stackView.axis = .vertical
+        stackView.spacing = 30
         view.addSubview(stackView)
 
         NSLayoutConstraint.activate([
-            stackView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
-            stackView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
-            stackView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
-            stackView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor)
+            stackView.bottomAnchor.constraint(equalTo: view.layoutMarginsGuide.bottomAnchor),
+            stackView.topAnchor.constraint(equalTo: view.layoutMarginsGuide.topAnchor),
+            stackView.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor),
+            stackView.trailingAnchor.constraint(equalTo: view.layoutMarginsGuide.trailingAnchor)
         ])
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    @objc
+    func didReturnFromTextField(_ sender: UITextField) {
+        view.endEditing(true)
     }
-
-
 }
 
